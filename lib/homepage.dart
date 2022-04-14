@@ -15,6 +15,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  var hello = "dadad";
   void _incrementCounter() {
     setState(() {
 
@@ -23,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 
-  var hello = 'adada' ;
+
 
   @override
   Widget build(BuildContext context) {
